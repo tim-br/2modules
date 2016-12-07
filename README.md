@@ -6,8 +6,9 @@ in omicron, run:
 
 Try try changing functions in `epsilon.core`
 
-ie, reload this function
-```(def sqlmap {:select [:a :b :c]
+ie, reload this variable
+```
+(def sqlmap {:select [:a :b :c]
              :from [:cran]
              :where [:= :f.a "baz"]})
 ```
